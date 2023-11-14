@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200;600&family=Roboto+Condensed:ital,wght@0,100;0,600;1,900&display=swap");
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 200;
+  height: 300vh;
+  color: black;
+}
+
+:root {
+  --color-primario: black;
+  --color-secundario: white;
+  --bs-body-bg: var(--color-secundario);
+  --bs-primary-bg-subtle:transparent;
+}
+
+nav {
+  font-weight: 600;
+}
+
+h1, h5 {
+  font-weight: 600;
+}
+
+h2 {
+  color: #c9181d;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 900;
+}
+
+.index-text {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  flex-direction: column;
+}
+
+.lower-container {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.imgage-container, .img-fluid-low {
+  flex-direction: row;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  height: auto;
+  width: 35%;
+  margin: 0.5rem;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: 20vh;
+  padding-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: auto;
+  }
+}/*# sourceMappingURL=estilos.css.map */
